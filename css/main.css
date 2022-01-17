@@ -1,0 +1,162 @@
+* {
+	box-sizing: border-box;
+	margin: auto;
+	padding: 0;
+	
+}
+
+:root {
+	--Very-dark-blue-bg-main: hsl(217, 54%, 11%);
+	--Dark-blue-card: hsl(216, 50%, 16%);
+	--Very-dark-blue-line: hsl(215, 32%, 27%);
+	--White:hsl(0,0%. 100%);
+	--Soft-blue: hsl(215, 51%, 70%);
+	--Cyan: hsl(178, 100%, 50%);
+}
+
+body {
+	background-color: var(--Very-dark-blue-bg-main);
+	font-size: 16px;
+	font-family: 'Outfit', sans-serif;
+	width: 100%;
+	max-width: 375px;
+	
+}
+
+div {
+	padding: 10px 0
+}
+
+h1 {
+	color:white;
+	font-size: 25px;
+	font-weight: 400;
+	
+}
+
+p{
+	color: var(--Soft-blue);
+	font-weight: 300;
+}
+
+span {
+	color:white;
+}
+
+.main-wrapper {
+	width: 90%;
+	background-color:var(--Dark-blue-card);
+	border-radius: 30px;
+}
+
+.content-wrapper {
+	width: 85%;
+	
+}
+
+.nft img {
+	width: 100%;
+	border-radius: 13px;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  width:5%;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.nft:hover {
+	opacity: 0.3;
+}
+
+.middle:hover {
+	opacity: 1;
+}
+
+
+
+.crypto-info {
+	
+	line-height: 25px;
+}
+
+.crypto-info h1 {
+	padding-bottom: 15px;
+}
+
+.crypto {
+	
+	width:100%;
+	border-bottom: 1px solid var(--Soft-blue);	
+	
+}
+
+.crypto-item{
+	display: flex;
+	justify-content: space-between;
+	align-items:center;
+	width: 100%;
+	 
+}
+
+.item{
+	width:40%;
+	margin:0;
+	display: flex;
+	
+	
+}
+
+
+
+#ethreum p {
+	color: var(--Cyan);
+	
+}
+
+
+
+
+#clock p{
+	color: var(--Soft-blue);
+	
+	
+}
+
+ .creator img{
+	border: 2px solid white;
+	border-radius: 50%;
+	width: 15%;
+}
+
+.creator {
+	display: flex;
+}
+
+/**** MEDIA Queries ****/
+@media  (min-width: 768px){
+	body{
+		padding: 50px 0;
+		
+	}
+	
+	
+}
+
+@media  (min-width: 1400px){
+	body{
+		
+		padding: 100px 0;
+	}
+}
+
+
+
+
+
